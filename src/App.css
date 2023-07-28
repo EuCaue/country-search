@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  font-family: 'Nunito Sans', sans-serif;
+  transition: all 0.2s ease;
+  transition:
+    color 0.1s ease-out,
+    background-color 0.1s ease-out;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  --white: hsl(0, 0%, 100%);
+  --elements: hsl(209, 23%, 22%);
+  --background: hsl(207, 26%, 17%);
+  --text: var(--white);
+  --input: hsl(0, 0%, 52%);
+  background-color: var(--background);
+}
+
+body.light {
+  --elements: var(--white);
+  --background: hsl(0, 0%, 98%);
+  --text: hsl(200, 15%, 8%);
+  --input: hsl(0, 0%, 52%);
+}
