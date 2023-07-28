@@ -129,7 +129,6 @@ span:has(li) {
   min-width: 5rem;
   padding: 0.5rem;
   overflow: scroll;
-  scrollbar-width: auto !important;
   background-color: var(--elements);
   margin-right: 0.5re;
   cursor: text;

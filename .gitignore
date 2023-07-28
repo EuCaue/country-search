@@ -24,3 +24,4 @@ dist-ssr
 style-guide.md
 data.json
 design/
+.vercel

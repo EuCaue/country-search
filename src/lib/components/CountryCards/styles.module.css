@@ -4,7 +4,6 @@
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
-  cursor: pointer;
 }
 
 .containerCard {
@@ -17,6 +16,7 @@
   height: 25rem;
   border-radius: 5px;
   box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
 
 .countryFlagImageContainer {

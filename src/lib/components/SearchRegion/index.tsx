@@ -34,19 +34,6 @@ const SearchRegion: React.FC = () => {
     return result;
   }, [fuse, filter, originalArray]);
 
-  const handleSubmit = React.useCallback(
-    (event: React.FormEvent<HTMLFormElement>): void => {
-      event.preventDefault();
-      setData(() => {
-        const newData = originalArray.filter(
-          (dataFilter) => dataFilter.name === filter
-        );
-        return newData;
-      });
-    },
-    [filter, originalArray, setData]
-  );
-
   const handleFilterClick = React.useCallback(
     (filterText: string) => {
       setShowFilterList(false);

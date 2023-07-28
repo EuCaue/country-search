@@ -1,4 +1,4 @@
-# <center>Country Search/center>
+# <center>Country Search</center>
 
 ## <center>_Screenshot_</center>
 
@@ -12,6 +12,6 @@
 
 ### Links
 
-- [Live Preview]()
-- [Challenge from Frontend Mentor]()
+- [Live Preview](https://country-search-pi-seven.vercel.app/)
+- [Challenge from Frontend Mentor](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca/hub)
 - [Portfolio](https://www.eucaue.tech)
